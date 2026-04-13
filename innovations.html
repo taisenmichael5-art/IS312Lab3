@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vote - Future Tech</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Future Tech Voting</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="vote.html">Vote</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Voting Section -->
+  <div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">Vote for Your Favorite Technology</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <h4>Artificial Intelligence</h4>
+        <button class="btn btn-success vote-btn" data-tech="Artificial Intelligence">Vote</button>
+      </div>
+      <div class="col-md-4 text-center">
+        <h4>Blockchain</h4>
+        <button class="btn btn-success vote-btn" data-tech="Blockchain">Vote</button>
+      </div>
+      <div class="col-md-4 text-center">
+        <h4>Quantum Computing</h4>
+        <button class="btn btn-success vote-btn" data-tech="Quantum Computing">Vote</button>
+      </div>
+    </div>
+    <div id="vote-result" class="text-center mt-4 text-success"></div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".vote-btn").click(function(){
+        let tech = $(this).data("tech");
+        $("#vote-result").text("Thank you for voting for " + tech + "!");
+      });
+    });
+  </script>
+</body>
+</html>
