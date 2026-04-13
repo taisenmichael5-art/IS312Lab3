@@ -102,13 +102,13 @@ Your repository may be organised like this:
 └── README.md
 ```
 
----
+
 
 ## 🔧 GitHub Workflow (Step-by-Step for Beginners)
 
 The steps below are provided to help students who are new to GitHub and Git.
 
----
+
 
 ## 1. Create the Repository (Member 1 Only)
 
@@ -121,12 +121,12 @@ Steps:
 
 ```text
 312Lab3
-```
+
 
 4. Choose whether the repository will be **Public** or **Private**
 5. Click **Create repository**
 
----
+
 
 ## 2. Add the Second Member as a Collaborator
 
@@ -138,7 +138,7 @@ After the repository is created:
 4. Add your partner using their GitHub username
 5. Your partner must accept the invitation before contributing
 
----
+
 
 ## 3. Clone the Repository to Your Computer
 
