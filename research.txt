@@ -1,0 +1,7 @@
+Bootstrap Class Research (Additional Findings):
+
+1. .shadow-lg: Used to add large box-shadows to elements, providing depth without custom CSS.
+2. .stretched-link: Makes the entire containing block (like a .card) clickable by expanding the <a> tag.
+3. .text-truncate: Useful for long headings or descriptions to ensure they fit within a single line by adding an ellipsis (...).
+4. .fixed-top: Locks the navbar to the top of the viewport even while scrolling.
+5. .d-none .d-md-block: Responsive display classes that hide elements on mobile but show them on medium screens and up.
